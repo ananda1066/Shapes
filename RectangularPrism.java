@@ -10,15 +10,19 @@ public class RectangularPrism implements Shapes{
 		this.height = height;
 	}
 
-	public static double getVolume() {
+	public RectangularPrism(double width){
+		this.width = width;
+	}
+
+	public double getVolume() {
 		return width * length * height;
 	}
 
-	public static double getSurfaceArea() {
+	public double getSurfaceArea() {
 		return (2*width*height) + (2*width*length) + (2*length*height);
 	}
 
-	public static double getPerimeter() {
-		return 4*width + 4*length + 4*height
+	public double getPerimeter() {
+		return 4*width + 4*length + 4*height;
 	}
 }
