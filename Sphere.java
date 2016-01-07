@@ -6,11 +6,13 @@ public class Sphere implements Shapes{
 		this.radius = radius;
 	}
 
-	public static double getVolume() {
+	@Override
+	public double getVolume() {
 		return (4.0/3.0) * Math.PI * Math.pow(radius, 3.0);
 	}
 
-	public static double getSurfaceArea() {
+	@Override
+	public double getSurfaceArea() {
 		return 4 * Math.PI * radius * radius;
 	}
 
