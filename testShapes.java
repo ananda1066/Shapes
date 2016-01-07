@@ -4,7 +4,7 @@ public class testShapes{
 		Cube object = new Cube(3);
 		System.out.println(object.getVolume());
 
-		RectangularPrism object2 = new RectangularPrism(2.0, 3.0, 4.0);
+		RectangularPrism object2 = new RectangularPrism(2, 3, 4);
 		System.out.println(object2.getVolume());
 
 		Sphere object3 = new Sphere(3);
