@@ -3,7 +3,7 @@ public class Cylinder extends Cone{
 	private double height;
 	private double radius;
 
-	public Cone(double radius, double height){
+	public Cylinder(double radius, double height){
 		super(radius, height);
 		this.radius = radius;
 		this.height = height;
