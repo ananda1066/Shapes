@@ -1,9 +1,15 @@
 public class Sphere implements Shapes{
 	
 	private double radius;
+	private double height;
 
 	public Sphere(double radius) {
 		this.radius = radius;
+	}
+
+	public Sphere(double radius, double height) {
+		this.radius = radius;
+		this.height = height;
 	}
 
 	@Override
