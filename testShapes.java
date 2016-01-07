@@ -9,6 +9,10 @@ public class testShapes{
 
 		Sphere object3 = new Sphere(3);
 		System.out.println(object3.getVolume());
+
+		Cone object4 = new Cone(3, 1);
+		System.out.println(object4.getVolume());
+
 	}
 
 
