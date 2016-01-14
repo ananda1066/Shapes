@@ -2,7 +2,8 @@ public class RectangularPrism implements Shapes{
 	
 	private double width;
 	private double length;
-	private double height;
+	//does nothing 
+private double height;
 
 	public RectangularPrism(double width, double length, double height) {
 		this.width = width;
